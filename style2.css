@@ -1,0 +1,170 @@
+html,
+body {
+    height: 100%;
+    color: white;
+    background-color: rgb(253, 135, 0);
+    background: url("https://images.ctfassets.net/wy4h2xf1swlt/asset_66666/658735187308b47b09c3e3f30533c2d0/c0a7dc96-istock-860026356.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+a,
+a:focus,
+a:hover {
+  color: white;
+  font-weight: 100%;
+}
+/* Navbar */
+.header {
+  background-color: #255D83;
+}
+
+.Im-Hungry {
+    font-size: xx-large;
+    color: rgb(253, 135, 0);
+}
+
+/* Dropdown menu */
+.dropdown {
+  color: #255D83;
+  display:inline-block;
+  margin-left: 15px;      
+  position: relative;
+}
+/* Title for first card */
+h1 {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(253, 135, 0);
+
+}
+
+h5 {
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(253, 135, 0);
+}
+/* Font attributes for all card text */
+.card-text {
+    font-weight: bolder;
+    font-size: larger;
+}
+/* Card One */
+.card1 {
+    background-position: 50% 50%;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://p1.pxfuel.com/preview/740/373/105/wood-wooden-texture-surface.jpg");
+    border-radius: 50px;
+}
+/* Card Two */
+.card2 {
+    background-position: 50% 50%;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://p1.pxfuel.com/preview/740/373/105/wood-wooden-texture-surface.jpg");
+    border-radius: 50px;
+}
+/* Card Three */
+.card3 {
+    background-position: 50% 50%;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://p1.pxfuel.com/preview/740/373/105/wood-wooden-texture-surface.jpg");
+    border-radius: 50px;
+}
+
+/* Title for Meal Name */
+.card-title2 {
+    font-size: 50px;
+    color: rgb(253, 135, 0);
+    
+}
+
+.bg-img {
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #255D83;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: rgb(253, 135, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /* Buttons */
+  #randomEatButton {
+    color: rgb(253, 135, 0);
+    background-color: #255D83;
+    font-weight: bolder;
+  }
+
+  #recipeSearch {
+    color: rgb(253, 135, 0);
+    background-color: #255D83;
+    font-weight: bolder;
+  }
+
+  #ing1 {
+    color: white;
+    background-color: rgb(112, 131, 145);
+    font-weight: bold;
+
+  }
+
+  #ing2 {
+    color: white;
+    background-color: rgb(112, 131, 145);
+    font-weight: bold;
+
+  }
+
+  #ing3 {
+    color: white;
+    background-color: rgb(112, 131, 145);
+    font-weight: bold;
+
+  }
+
+  #ing4 {
+    color: white;
+    background-color: rgb(112, 131, 145);
+    font-weight: bold;
+
+  }
+
+  #ing5 {
+    color: white;
+    background-color: rgb(112, 131, 145);
+    font-weight: bold;
+
+  }
+
+  #navBtn {
+    color: rgb(253, 135, 0);
+  }

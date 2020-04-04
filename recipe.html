@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Main Food Page Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="style2.css" rel="stylesheet">
+  <style>
+    body,
+    html {
+      height: 55%;
+    }
+
+    .parallax {
+      /* Full height */
+      height: 100%;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <div class= "header">
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a class="Im-Hungry" href="index.html">I'm Hungry</h5></a>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text" id="navBtn" href="index.html">Home</a>
+      <a class="p-2 text" id="navBtn" href="recipe.html">Search By Cousine Type</a>
+      <a class="p-2 text" id="navBtn" href="recipebyingredients.html">Search By Ingredients</a>
+    </nav>
+  </div>
+  </div>
+  <div class="parallax"></div>
+  <!--Columns-->
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="card1 text-left">
+        <br>
+        <br>
+        <div class="dropdown">
+          <!-- <button class="btn btn-secondary dropdown-toggle position-static w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Meal Type
+            </button> -->
+          <label for="meals">
+
+          </label>
+          <select id="meals">
+            <option class="dropdown-item">Meal Type</option>
+            <option class="dropdown-item" value= "Italian" >Italian</option>
+            <option class="dropdown-item" value = "American">American Classic</option>
+            <option class="dropdown-item" value = "French">French</option>
+            <option class="dropdown-item" value = "Mexican">Mexican</option>
+            <option class="dropdown-item" value= "Mediterranean">Mediterranean</option>
+            <option class="dropdown-item" value = "European">European</option>
+            <option class="dropdown-item" value = "Vegan">Vegan</option>
+            <option class="dropdown-item" value = "Vegetarian" >Vegetarian</option>
+          </select>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title1">Please choose a cousine type from the menu above.</h1>
+          <img src="" class="card-img" alt="">
+          <p class="card-text">Or click "I'll Eat Anything" to see a random recipe!</p>
+          <button id="randomEatButton" class="btn btn-primary">I'll Eat Anything</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-5">
+      <div class="card2 text-center">
+        <div class="card-body">
+          <div id="recipeParent"></div>
+          <br>
+          <br>
+          <br>
+          <h5 class="card-title2">Watch a video about your recipe</h5>
+          <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+          <div id="player"></div>
+          <script></script>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-5">
+      <div class="card3">
+        <div id="recipeParent2" class="card-body">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="parallax"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
