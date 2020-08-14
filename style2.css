@@ -10,7 +10,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
-  
+/* a tag references */
 a,
 a:focus,
 a:hover {
