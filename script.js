@@ -338,14 +338,12 @@ function getRecipeByCuisine(cuisine) {
         $("#ings").val(" ");
     })
 }        
-
+    // Load Youtube Video for Recipe
 $("#meals").on("change", function () {
     $("#recipeParent").empty();
     $("#recipeParent2").empty();
     var cuisine = $("#meals").val();  
      getRecipeByCuisine(cuisine);
-
-    // Load Youtube Video for Recipe
 
  });
 
