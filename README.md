@@ -1,4 +1,4 @@
-# imhungryapp
+# I'm Hungry
 
 **[Try it out here!](https://brandenlanghals.github.io/imhungryapp/index.html)**
 
