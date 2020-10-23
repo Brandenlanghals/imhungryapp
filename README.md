@@ -38,4 +38,3 @@ See contribution history [here](https://github.com/Brandenlanghals/imhungryapp/c
 
 ## Future Updates
 App is already mobile responsive, but we would like to launch it to the app store and monetize it using advertising. We would like to allow companies to promote their ingredients and show you where to buy them. 
-
